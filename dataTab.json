@@ -22,7 +22,7 @@
          "name" : "Stena Spirit",
          "dwt": "4,500",
          "year_built":"1988",
-         "imo": "7350260",
+         "imo": "7350261",
          "type": "Passenger/Ro-Ro Ship(Vessel)",
          "country_built": "Poland",
          "yard": "Stocznia Cdanska"
@@ -31,7 +31,7 @@
          "name" : "El, Venizelos",
          "dwt": "5,351",
          "year_built":"1992",
-         "imo": "7907661",
+         "imo": "7907662",
          "type": "Passenger/Ro-Ro Ship(Vessel)",
          "country_built": "Poland",
          "yard": "Stocznia Cdynia"
@@ -88,7 +88,7 @@
         "imo": "8302246",
         "type": "Contiainer Ship (Fully Cellu...)",
         "country_built": "Poland",
-        "yard": "Stocznia im K"
+        "yard": "Stocznia im Kumony P.."
       },
       {
         "name": "Zeran",
@@ -97,7 +97,7 @@
         "imo": "8302272",
         "type": "Ro-Ro Cargo Ship",
         "country_built": "Poland",
-        "yard": "test"
+        "yard": "Stocznia im Kumony P.."
       },
       {
         "name": "Chodziez",
@@ -106,7 +106,7 @@
         "imo": "8302301",
         "type": "Ro-Ro Cargo Ship",
         "country_built": "Poland",
-        "yard": "test"
+        "yard": "Stocznia im Kumony P.."
       }
 
   ]
