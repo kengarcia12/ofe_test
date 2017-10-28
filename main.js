@@ -5,22 +5,22 @@ $(document).ready(function(){
     	ajax: 'dataTab.json',
     	"columns": [
             {
-                "className":      'details-control-cb',
+                "className":      "details-control-cb",
                 "orderable":      false,
                 "data":           null,
-                "defaultContent": '<input type = "checkbox">'
+                "defaultContent": "<input type = 'checkbox'>"
             },
             {
-                "className":      'details-control-bm',
+                "className":      "details-control-bm",
                 "orderable":      false,
                 "data":           null,
-                "defaultContent": '<i>star</i>'
+                "defaultContent": "<i class='fa fa-star-o' aria-hidden='true'></i>"
             },
             {
-                "className":      'details-control-info',
+                "className":      "details-control-info",
                 "orderable":      false,
                 "data":           null,
-                "defaultContent": '<i>?</i>'
+                "defaultContent": "<i class='fa fa-question' aria-hidden='true'></i>"
             },
             { "data": "name" },
             { "data": "dwt" },
@@ -51,10 +51,19 @@ $(document).ready(function(){
                 },
                 {
                     "text" : " VIEW AS",
-                    "className" : "viewAs"
+                    "className" : "view"
+                },
+                {
+                    "text" : "<i class='fa fa-th-large' aria-hidden='true'></i> ",
+                    "className" : "gridIcon"
+                },
+                {
+                    "text" : "<i class='fa fa-list-ul' aria-hidden='true'></i>",
+                    "className" : "listIcon"
                 },
                 {
                     "extend" : "colvis",
+                    "text" : "<i class='fa fa-cog' aria-hidden='true'></i>",
                     "columns" : ":not(.noVis)"
                 } 
             ],
