@@ -1,0 +1,8 @@
+#myTable_filter { display: none; }
+#myTable tbody tr td:nth-child(4) { color: #42ADE9; }
+.dt-buttons {float: right;text-align: right;}
+.csvButton, .email {background-color: #FC561C;padding: 5px 30px;}
+.csvButton span, .email span { color: #fff; font-weight: bold; font-size: 13px; text-transform: uppercase; position: relative; }
+.csvButton span:before {font-family: FontAwesome;content: "\f0f6";display: block;position: absolute;top: 1px;left: -20px; font-weight: normal;}
+.email span:before {font-family: FontAwesome;content: "\f003";display: block;position: absolute;top: 1px;left: -20px; font-weight: normal;}
+.csvButton span:hover, .email span:hover { text-decoration: none; }
